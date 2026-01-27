@@ -36,8 +36,6 @@ class Program
 
         int score = 0;
 
-        Pixel hoofd = new Pixel();
-
         hoofd.xPos = screenwidth / 2;
 
         hoofd.yPos = screenheight / 2;
@@ -130,7 +128,7 @@ class Program
 
             }
 
-            Console.ForegroundColor =  /* ?? */;
+            Console.ForegroundColor =  ConsoleColor.Blue;
 
             Console.WriteLine("Score: " + score);
 
