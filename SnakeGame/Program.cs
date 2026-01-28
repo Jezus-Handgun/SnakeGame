@@ -125,17 +125,30 @@ class Program
                 }
             }
 
-            if (hoofd.xPos <= 0 || hoofd.xPos >= screenwidth - 1 ||
-                hoofd.yPos <= 0 || hoofd.yPos >= screenheight - 1)
+            if (hoofd.xPos <= 0  hoofd.xPos >= screenwidth - 1  hoofd.yPos <= 0 || hoofd.yPos >= screenheight - 1)
             {
-                GameOver(score, screenwidth, screenheight);
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
+                Console.WriteLine("Game Over");
+                Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
+                Console.WriteLine("Twój wynik: " + score);
+                Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
+                Environment.Exit(0);
             }
 
             for (int i = 0; i < telje.Count; i += 2)
             {
                 if (hoofd.xPos == telje[i] && hoofd.yPos == telje[i + 1])
                 {
-                    GameOver(score, screenwidth, screenheight);
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
+                    Console.WriteLine("Game Over");
+                    Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
+                    Console.WriteLine("Twój wynik: " + score);
+                    Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
+                    Environment.Exit(0);
                 }
             }
 
