@@ -70,6 +70,18 @@ class Program
             Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
             Console.Write("■");
 
+            Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
+
+            Console.Write("■");
+
+            Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
+
+            Console.Write("■");
+
+            Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
+
+            Console.Write("■");
+
             if (Console.KeyAvailable)
             {
                 ConsoleKeyInfo info = Console.ReadKey(true);
