@@ -36,7 +36,7 @@ Gra obsługuje dwóch graczy jednocześnie:
    ```bash
    git clone https://github.com/Jezus-Handgun/SnakeGame.git
 
-Informatyka niestacjonarna
-Semestr 5
-Sebastian Goździński, numer albumu: 147590
-Jakub Bunar, numer albumu: 147554
+Informatyka niestacjonarna  
+Semestr 5  
+Sebastian Goździński, numer albumu: 147590  
+Jakub Bunar, numer albumu: 147554  
